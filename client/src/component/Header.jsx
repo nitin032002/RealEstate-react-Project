@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
       <h1>
-        <span className='text-slate-500'>Luxor</span>
+        <span className='text-slate-900'>Luxor</span>
         <span className='text-slate-700'>Living</span>
       </h1>
       
