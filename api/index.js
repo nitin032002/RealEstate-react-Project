@@ -2,6 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import userrouter from './routes/user.routes.js';
+import authrouter from './routes/auth.routes.js';
 dotenv.config();
 
 mongoose.connect(process.env.Mongo)
